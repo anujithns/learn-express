@@ -1,0 +1,30 @@
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+}
+.card h3 {
+    margin: 10px;
+}
+.card p {
+    margin: 10px;
+}
+.header{
+    user-select: none;
+    display: flex;
+    justify-content:center;
+}
+.divmain{
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    display: inline-block;
+
+    width:max(300px,80vw);
+}
